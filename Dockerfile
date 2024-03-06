@@ -1,3 +1,3 @@
-FROM python:2.39.2
+FROM python:3.6
 COPY . /home
 CMD python /home/pfile.py
